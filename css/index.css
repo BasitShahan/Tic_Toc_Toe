@@ -93,8 +93,9 @@ h1 {
 
 button {
     box-shadow: 0px 3px 12px 1px rgba(0, 0, 0, 0.75);
-    width: 30%;
-    height: 13vh;
+    width: 27%;
+    height: 17vh;
+    cursor: pointer;
     padding: 1.2rem;
     margin: 1rem 0;
     border: none;
@@ -104,7 +105,7 @@ button {
 }
 
 .setbtn {
-    width: 14vw;
+    width: 13vw;
      text-align: center;
      background-color: #34744f;
      height: 10vh;
