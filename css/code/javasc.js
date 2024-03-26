@@ -4,10 +4,6 @@ const resetBtn = document.querySelector("#Reset");
 const winnerdiv=document.querySelector(".alert");
 const winner=document.querySelector(".hurrah");
 
-
-
-
-
 const win=[
     [0,1,2],
     [0,3,6],
@@ -58,10 +54,7 @@ const  checked=()=>{
              winnerdiv.appendChild(winner);
             winnerdiv.style="display:block";
             winnerdiv.style.color="orange";
-            winnerdiv.style.fontSize="30px";
-
-            
-            
+            winnerdiv.style.fontSize="30px";   
 
              
           }        
